@@ -6,7 +6,13 @@
 
 <group name="app">
     <css></css>
-    <js></js>
+    <js>/library/backbone.marionette/json2.js</js>
+    <js>/library/backbone.marionette/jquery.js</js>
+    <js>/library/backbone.marionette/underscore.js</js>
+    <js>/library/backbone.marionette/backbone.js</js>
+    <js>/library/backbone.marionette/backbone.marionette.js</js>
+    <js>/library/backbone.marionette.templates/backbone.marionette.templates.js</js>
+    <js>/library/backbone.modelbinder/backbone.modelbinder.js</js>
 </group>
 
 </groups>
