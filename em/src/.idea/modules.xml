@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/em-backbone/em-backbone.iml" filepath="$PROJECT_DIR$/em-backbone/em-backbone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/em-frontview/em-frontview.iml" filepath="$PROJECT_DIR$/em-frontview/em-frontview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/em-frontview/em-frontview-client/em-frontview-client.iml" filepath="$PROJECT_DIR$/em-frontview/em-frontview-client/em-frontview-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/em-parent.iml" filepath="$PROJECT_DIR$/em-parent.iml" />
+    </modules>
+  </component>
+</project>
+

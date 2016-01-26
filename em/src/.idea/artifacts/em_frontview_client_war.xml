@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="em-frontview-client:war">
+    <output-path>$PROJECT_DIR$/em-frontview/em-frontview-client/target</output-path>
+    <root id="archive" name="em-frontview-client-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="em-frontview-client:war exploded" />
+    </root>
+  </artifact>
+</component>
