@@ -24,6 +24,8 @@
         <version.spring.ldap>2.0.4.RELEASE</version.spring.ldap>
         <version.spring.security>4.0.3.RELEASE</version.spring.security>
 
+        <version.wro4j>1.7.9</version.wro4j>
+
         <maven.war.plugin.version>2.6</maven.war.plugin.version>
         <version.maven.aspectj.plugin>1.8</version.maven.aspectj.plugin>
         <version.maven.compiler.plugin>3.3</version.maven.compiler.plugin>
@@ -159,6 +161,17 @@
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-core</artifactId>
                 <version>${version.spring.security}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ro.isdc.wro4j</groupId>
+                <artifactId>wro4j-core</artifactId>
+                <version>${version.wro4j}</version>
+            </dependency>
+            <dependency>
+                <groupId>ro.isdc.wro4j</groupId>
+                <artifactId>wro4j-extensions</artifactId>
+                <version>${version.wro4j}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

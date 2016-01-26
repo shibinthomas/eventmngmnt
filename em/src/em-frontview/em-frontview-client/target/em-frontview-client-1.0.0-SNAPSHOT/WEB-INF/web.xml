@@ -13,4 +13,14 @@
         <servlet-name>em</servlet-name>
         <url-pattern>/api/*</url-pattern>
     </servlet-mapping>
+
+    <filter>
+        <filter-name>WebResourceOptimizer</filter-name>
+        <filter-class>ro.isdc.wro.http.WroFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>WebResourceOptimizer</filter-name>
+        <url-pattern>/app/*</url-pattern>
+    </filter-mapping>
 </web-app>
